@@ -1,3 +1,19 @@
+/*
++++++++++
+Variables
++++++++++
+*/
+
+
+
+/*
++++++++++
+Universal
++++++++++
+*/
+
+
+
 html {
   box-sizing: border-box;
 }
@@ -6,4 +22,11 @@ html {
   box-sizing: inherit;
 }
 
+
 @import 'github-user';
+@import 'variables';
+
+
+body {
+	background-color: $pale-blue;
+}
